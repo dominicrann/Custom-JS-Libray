@@ -1,10 +1,20 @@
 /* eslint no-console: 0 */  // --> OFF
 
-function add(a, b) {
-	if (typeof a == 'number' & typeof b == 'number') {
-		return a + b;
+function add(a, b, floored) {
+	if (floored) {
+		if (typeof a == 'number' & typeof b == 'number') {
+			return Math.floor(a + b);
+		} else {
+			console.warn('The Given Arguments For add() Are Not Numbers');
+
+		}
 	} else {
-		console.warn('The Given Arguments For add() Are Not Numbers');
+		if (typeof a == 'number' & typeof b == 'number') {
+			return a + b;
+		} else {
+			console.warn('The Given Arguments For add() Are Not Numbers');
+
+		}
 
 	}
 }
