@@ -1,0 +1,19 @@
+{
+  "name": "custom-js-libray",
+  "version": "1.0.0",
+  "description": "a personal js libray",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "test",
+    "custom"
+  ],
+  "author": "Dominic Rann",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
