@@ -1,0 +1,3 @@
+/* eslint no-console: 0 */  // --> OFF
+
+function add(o, e, n) { if (n) { if ('number' == typeof o & 'number' == typeof e) return Math.floor(o + e); console.warn('The Given Arguments For add() Are Not Numbers'); } else { if ('number' == typeof o & 'number' == typeof e) return o + e; console.warn('The Given Arguments For add() Are Not Numbers'); } } function modulo(o, e) { if ('number' == typeof o & 'number' == typeof e) return o % e; console.warn('The Given Arguments For modulo() Are Not Numbers'); } function consoleLog(o) { console.log(o); } function consoleTable(o) { console.table(o); } 'undefined' != typeof module && (module.exports = { modulo: modulo, consoleTable: consoleTable, consoleLog: consoleLog, add: add });
