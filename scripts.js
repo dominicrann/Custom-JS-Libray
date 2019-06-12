@@ -66,6 +66,9 @@ function Min(n) {
 	return Math.min(n);
 }
 
+function Log(n) {
+	return Math.log(n);
+}
 function modulo(a, b) {
 	//check the args are numbers
 	if (typeof a == 'number' & typeof b == 'number') {
@@ -142,7 +145,8 @@ if (typeof module !== 'undefined') {
 		Tan: Tan,
 		Sqrt: Sqrt,
 		Max: Max,
-		Min: Min
+		Min: Min,
+		Log: Log
 	};
 
 }
