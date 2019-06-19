@@ -1,5 +1,6 @@
 module.exports = function (grunt) {
 	grunt.initConfig({
+		// configuration
 		concat: {
 			js: {
 				src: ['src/*.js'],
