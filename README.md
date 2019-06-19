@@ -1,4 +1,4 @@
-# Custom Js Libray
+# Custom Js Libray [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7b38fb8533254ac1847a19ead1f6fa20)](https://www.codacy.com/app/dominicrann/Custom-JS-Libray?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dominicrann/Custom-JS-Libray&amp;utm_campaign=Badge_Grade)
 
 ## Libray example
 You can find a live example to test the libray at: https://example-project.netlify.com/
