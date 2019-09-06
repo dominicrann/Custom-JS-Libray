@@ -1,4 +1,6 @@
 /* eslint no-console: 0 */ // --> OFF
+// const config = require('./');
+// const chalk = require('chalk');
 // add 2 numbers together
 function add(a, b, floored) {
 	if (!floored) {
@@ -22,8 +24,9 @@ function add(a, b, floored) {
 				//add the numbers not floored
 				return a + b;
 			} else {
-				console.warn('%c The First 2 Given Arguments For add() Are Not Numbers', 'color:rgba(255,0,0);');
-
+				// console.warn('%c The First 2 Given Arguments For add() Are Not Numbers', 'color:rgba(255,0,0);');
+				console.warn(chalk.red('The First 2 Given Arguments For add() Are Not Numbers'));
+				
 			}
 
 		}
