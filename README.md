@@ -8,6 +8,11 @@ You can find a live example to test the libray at: https://example-project.netli
 
 
 ## How do i use the libray?
-Its very simple just add a script tag in index.html that links to:
-https://cdn.jsdelivr.net/gh/dominicrann/custom-js-libray/dist/custom.js
+Its very simple just add the below script tag in index.html
+```html
+
+<script src="https://cdn.jsdelivr.net/gh/dominicrann/custom-js-libray/dist/custom.js">
+```
+
+
 
