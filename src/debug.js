@@ -1,5 +1,5 @@
 /* eslint no-console: 0 */  // --> OFF
-let config = {};
+// let Config = {};
 function consoleLog(t) {
 	console.log(t);
 }
@@ -9,12 +9,12 @@ function consoleTable(table) {
 }
 
 
-function SetConfig(config){
-	config.autoFloor = config.autoFloor ? config.autoFloor : false;
-	config.debug = config.debug ? config.debug : false;
+// function SetConfig(config){
+// 	config.autoFloor = config.autoFloor ? config.autoFloor : false;
+// 	config.debug = config.debug ? config.debug : false;
 
 
-}
+// }
 
 
 
@@ -24,6 +24,6 @@ function SetConfig(config){
 module.exports = {
 	consoleLog: consoleLog,
 	consoleTable: consoleTable,
-	SetConfig,
-	Config,
+	// SetConfig,
+	// Config,
 };

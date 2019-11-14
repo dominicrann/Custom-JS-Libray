@@ -18,6 +18,9 @@ module.exports = function (grunt) {
 		run: {
 			test: {
 				exec: 'npm run test' // <-- use the exec key.
+			},
+			lint: {
+				exec: 'npm run lint' // <-- use the exec key.
 			}
 		}
 	});
@@ -28,5 +31,5 @@ module.exports = function (grunt) {
 	// register tasks
 	grunt.registerTask('js-concat', ['concat:js']);
 	grunt.registerTask('test', ['run:test']);
-	grunt.registerTask('default', ['run:test', 'concat:js', 'uglify']);
+	grunt.registerTask('default', ['run:lint','run:test', 'concat:js', 'uglify']);
 };

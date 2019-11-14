@@ -4,7 +4,8 @@
   "description": "a personal js libray",
   "main": "sketch.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src/* --fix"
   },
   "keywords": [
     "jest",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
+    "eslint": "^6.6.0",
     "grunt": "^1.0.4",
     "jest": "^24.8.0"
   },

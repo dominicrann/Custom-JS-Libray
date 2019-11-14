@@ -2,7 +2,7 @@
 // const config = require('./');
 // const chalk = require('chalk');
 function color(string){
-	return '%c' + string
+	return '%c' + string;
 }
 function red(){
 	return 'color:rgba(255,0,0);';
