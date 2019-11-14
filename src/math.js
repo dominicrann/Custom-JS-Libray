@@ -1,6 +1,12 @@
 /* eslint no-console: 0 */ // --> OFF
 // const config = require('./');
 // const chalk = require('chalk');
+function color(string){
+	return '%c' + string
+}
+function red(){
+	return 'color:rgba(255,0,0);';
+}
 // add 2 numbers together
 function add(a, b, floored) {
 	if (!floored) {
@@ -15,7 +21,7 @@ function add(a, b, floored) {
 				return Math.floor(a + b);
 			} else {
 				//if the given args (first 2) are not numbers warn the user
-				console.warn('%c The Given Arguments For add() Are Not Numbers', 'color:rgba(255,0,0);');
+				console.warn(color('The Given Arguments For add() Are Not Numbers'), red());
 
 			}
 		} else {
@@ -25,7 +31,7 @@ function add(a, b, floored) {
 				return a + b;
 			} else {
 				// console.warn('%c The First 2 Given Arguments For add() Are Not Numbers', 'color:rgba(255,0,0);');
-				console.warn(chalk.red('The First 2 Given Arguments For add() Are Not Numbers'));
+				console.warn(color('The First 2 Given Arguments For add() Are Not Numbers'),red());
 				
 			}
 
@@ -67,7 +73,7 @@ function modulo(a, b) {
 		return a % b;
 	} else {
 		//if the given args are not numbers then warn the user
-		console.warn('%c The Given Arguments For modulo() Are Not Numbers', 'color:rgba(255,0,0);');
+		console.warn(color('The Given Arguments For modulo() Are Not Numbers'), red());
 
 	}
 
@@ -79,7 +85,7 @@ function Floor(n) {
 		return Math.floor(n);
 	} else {
 		//if the args are not numbers warn the user
-		console.warn('%c The Given Arguments For Floor() Are Not Numbers', 'color:rgba(255,0,0);');
+		console.warn(color('The Given Arguments For Floor() Are Not Numbers'),red());
 	}
 }
 //function to make a 2d array
@@ -103,7 +109,7 @@ function Mult(n1, n2, floored) {
 			return Math.floor(n1 * n2);
 		} else {
 			// warn the user if the given args are not numbers
-			console.warn('%c The Given Arguments For Mult() Are Not Numbers', 'color:rgba(255,0,0);');
+			console.warn(color('The Given Arguments For Mult() Are Not Numbers'), red());
 		}
 	}
 	// don't floor the result of mult
@@ -114,7 +120,7 @@ function Mult(n1, n2, floored) {
 			return n1 * n2;
 		} else {
 			// if the args are not numbers then warn the user
-			console.warn('%c The Given Arguments For Mult() Are Not Numbers', 'color:rgba(255,0,0);');
+			console.warn(color('The Given Arguments For Mult() Are Not Numbers'), red());
 		}
 
 	}
